@@ -18,9 +18,9 @@ git push origin master
 2. 내려받기 수정하기 저장하기 
    그리고 수정된 원본 다시 올리기 
 
-git clone https://github.com/moonjongjs/starbucks_react_cra_src.git
+git clone https://github.com/ya3679/cra_starbucks_react_f.git
 경로이동
-cd  starbucks_react_cra_src
+cd  cra_starbucks_react_f
 
 
 수정작업 
@@ -31,10 +31,10 @@ cd  starbucks_react_cra_src
 
 
 git init
-git config user.name "moonjongjs"
-git config user.email "moonseonjong@naver.com"
+git config user.name "ya3679"
+git config user.email "yaun97929@naver.com"
 git remote remove origin
-git remote add origin https://github.com/moonjongjs/starbucks_react_cra_src.git
+git remote add origin https://github.com/ya3679/cra_starbucks_react_f.git
 git remote -v
 git add .
 git commit -m "리액트 CRA 수정 소스 스타벅스 웹제작"
@@ -42,14 +42,14 @@ git push origin master
 
    
 
-3. 배포할 새로운 리포지토리에 만들기 배포하기  starbucks_react_cra_web
+3. 배포할 새로운 리포지토리에 만들기 배포하기  starbucks_web_f
   
 경로이동
-cd E:/문선종/학습산출물/2022년02월/02_09_05_깃허브_리액트_CRA_배포하기
+cd C:/Users/ya367/Desktop/김예은/22_2월/02_09_혼자_cra_올리기_배포_수정
 
 배포하기 작업
 
-cd E:/문선종/학습산출물/2022년02월/02_09_05_깃허브_리액트_CRA_배포하기
+cd C:/Users/ya367/Desktop/김예은/22_2월/02_09_혼자_cra_올리기_배포_수정
 ls -la
 
 npm install
@@ -57,10 +57,10 @@ CRRL+C        서버종료
 
 
 git init
-git config user.name "moonjongjs"
-git config user.email "moonseonjong@naver.com"
+git config user.name "ya3679"
+git config user.email "yaun97929@naver.com"
 git remote remove origin
-git remote add origin  https://github.com/moonjongjs/starbucks_react_cra_web.git
+git remote add origin  https://github.com/ya3679/starbucks_web_f.git
 git remote -v
 git add .
 git commit -m "리액트 CRA 웹 포트폴리오 배포"
